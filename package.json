@@ -14,10 +14,7 @@
     "node": ">=0.12.0"
   },
   "scripts": {
-    "test": "xo && ava",
-    "coverage": "nyc ava",
-    "precoveralls": "npm run coverage",
-    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "test": "xo && nyc ava"
   },
   "files": [
     "index.js"
@@ -34,7 +31,6 @@
   },
   "devDependencies": {
     "ava": "*",
-    "coveralls": "^2.11.12",
     "nyc": "^8.1.0",
     "xo": "*"
   },
