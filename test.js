@@ -1,8 +1,6 @@
 import test from 'ava';
 import isXfce from './';
 
-test('is-xfce', t => {
-	return isXfce().then(data => {
-		t.false(data);
-	});
+test('is-xfce', async t => {
+	t.is(await isXfce(), false);
 });
