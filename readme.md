@@ -1,5 +1,7 @@
 # is-xfce [![Build Status Travis](https://travis-ci.org/t1st3/is-xfce.svg?branch=master)](https://travis-ci.org/t1st3/is-xfce)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/t1st3/is-xfce.svg)](https://greenkeeper.io/)
+
 > Check if the current session runs [XFCE desktop](https://www.xfce.org/).
 
 
