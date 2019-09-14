@@ -15,7 +15,7 @@ $ npm install --save is-xfce
 ```js
 const isXfce = require('is-xfce');
 
-isXfce().then(data => {
+isXfce.then(data => {
   console.log(data);
   //=> true or false
 });

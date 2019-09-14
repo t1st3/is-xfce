@@ -1,6 +1,6 @@
 {
   "name": "is-xfce",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Check if the current session runs XFCE desktop",
   "license": "MIT",
   "repository": "t1st3/is-xfce",
@@ -26,9 +26,7 @@
     "detect",
     "check"
   ],
-  "dependencies": {
-    "pify": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^2.3.0",
     "nyc": "^14.1.1",
